@@ -5,6 +5,6 @@ from model.artObject import ArtObject
 
 @dataclass
 class Arco:
-    o1: ArtObject
-    o2: ArtObject
+    nodo1: ArtObject
+    nodo2: ArtObject
     peso: int
